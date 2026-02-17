@@ -1,0 +1,5 @@
+// Simple form submission alert (replace with real backend like EmailJS for actual email sending)
+document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you! We\'ll get back to you soon.');
+});
